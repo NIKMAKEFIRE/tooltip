@@ -22,6 +22,9 @@ const handleNextTooltip = () => {
 
  const [ isActiveTooltip, setIsActiveTooltip ] = useState(false); 
 
+То есть изначально в localStorage должен быть false. Но после 30 секунд меняется state и он будет true. 
+
+
  const delay = 30000;
 
     useEffect(() => {
