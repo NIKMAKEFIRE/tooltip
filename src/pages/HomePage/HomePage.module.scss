@@ -1,0 +1,27 @@
+.main {
+    &__content {
+        margin-top: 100px;
+        &_btns {
+            margin-top: 75px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.title {
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
+
+.paragraph {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--black);
+}

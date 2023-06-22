@@ -1,0 +1,12 @@
+{
+    "printWidth": 110,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "semi": true,
+    "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@/(.*)$", "^[./]"],
+    "importOrderCaseInsensitive": true,
+    "importOrderParserPlugins": ["typescript", "decorators-legacy"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}

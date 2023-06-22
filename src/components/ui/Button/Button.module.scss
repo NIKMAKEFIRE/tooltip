@@ -1,0 +1,22 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 300px;
+    height: 54px;
+}
+
+.dark {
+    background: #404040;
+    color: var(--white);
+}
+
+.light {
+    background: #f5f3f1;
+    color: var(--black);
+}
