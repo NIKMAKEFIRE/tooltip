@@ -66,6 +66,10 @@
         line-height: 21px;
         color: #989898;
     }
+    &__active_btn {
+        z-index: 3;
+        position: relative;
+    }
 }
 
 .top {

@@ -53,7 +53,9 @@ const Tooltip: FC<TooltipProps> = (props) => {
                 </div>
             )}
 
-            <div style={{ zIndex: 3 }}>{children}</div>
+            <div className={`${currentIndex === tooltips.index && styles.tooltip__active_btn}`}>
+                {children}
+            </div>
         </div>
     );
 };
